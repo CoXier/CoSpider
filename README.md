@@ -1,5 +1,5 @@
-## CoSpider
-CoSpider是一个专注中国大学**课表**的爬虫，类似于超级课程表,目前能爬取华中科技大学、武汉理工大学的个人课表
+![CoSpider](logo.jpg)
+CoSpider是一个专注中国大学**课表**的爬虫，类似于超级课程表,目前能爬取华中科技大学、武汉理工大学的个人课表。你可以用它来做校园通、课程表、验证学生身份等等
 
 ## For  Developer
 
@@ -13,6 +13,7 @@ CoSpider是一个专注中国大学**课表**的爬虫，类似于超级课程�
 - Jsoup
 
 ### 开发
+
 想借鉴此库来爬取你们学校的课表吗？
 一般来说爬课表，关键的是模拟登陆，让服务器认为你是浏览器，使用`OkHttp3.0`管理Cookie即可，这一点请参考
 `CustomCookieJar`
@@ -60,6 +61,9 @@ String result = spider.execute(task);
 * 对于武大和华农之类需要验证码的：在手机端或者Pc端存储验证码图片，然后手动填写验证码
 
 ## License
+
+------
+
 Copyright 2016 coxier.
 
 Licensed under the Apache License, Version 2.0 (the "License");
